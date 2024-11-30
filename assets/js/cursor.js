@@ -8,8 +8,8 @@ var cursor = {
   cursorEnlarged: false,
   $dot: document.querySelector(".cursor-dot"),
   $outline: document.querySelector(".cursor-dot-outline"),
-  lastScrolledLeft : 0, // For changing position of cursor with scrolling
-  lastScrolledTop : 0,  // For changing position of cursor with scrolling
+  lastScrolledLeft: 0, // For changing position of cursor with scrolling
+  lastScrolledTop: 0,  // For changing position of cursor with scrolling
 
   init: function () {
     // Set up element sizes

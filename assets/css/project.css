@@ -19,11 +19,13 @@ html[data-theme="dark"] {
   --text: rgba(255, 255, 255, 0.5);
   --neu-icon: whitesmoke;
 }
+
 html {
   overflow-x: hidden;
   max-width: 120%;
   height: auto;
 }
+
 body {
   color: var(--text);
   background-color: var(--bg);
@@ -106,6 +108,7 @@ body[light-mode="dark"] .light-mode-button span:nth-child(2) {
     position: absolute;
     padding-right: 3.5rem;
   }
+
   .godown {
     z-index: 1;
     padding-top: 15rem;
@@ -154,12 +157,14 @@ a:hover {
   .row {
     margin-top: 0em;
   }
+
   .card {
     width: 43%;
     column-gap: 3rem;
     margin: 0 2rem;
     transition: width 0.8s;
   }
+
   .column {
     margin-left: 1.5rem;
   }
@@ -302,7 +307,7 @@ a:hover {
   display: none;
 }
 
-.card input[type="checkbox"]:checked + .menu-content {
+.card input[type="checkbox"]:checked+.menu-content {
   transform: translateY(-60px);
 }
 
@@ -408,6 +413,7 @@ ul {
     margin-top: -4.5rem;
     margin-right: 20px;
   }
+
   .card .title-div {
     padding-bottom: 7rem;
     margin-bottom: 0px;
@@ -420,6 +426,7 @@ ul {
     margin-top: -4.5rem;
     margin-right: 20px;
   }
+
   .card .title-div {
     padding-bottom: 7rem;
     font-size: 3rem;
@@ -431,6 +438,7 @@ ul {
     margin-top: -4.5rem;
     margin-right: 20px;
   }
+
   .card .title-div {
     padding-bottom: 8rem;
     margin-bottom: 0px;
@@ -443,6 +451,7 @@ ul {
     margin-top: -4.5rem;
     margin-right: 20px;
   }
+
   .card .title-div {
     padding-bottom: 6rem;
     margin-bottom: 0px;
@@ -455,6 +464,7 @@ ul {
     margin-top: -4.5rem;
     margin-right: 20px;
   }
+
   .card .title-div {
     padding-bottom: 6rem;
     margin-bottom: 0px;
@@ -467,6 +477,7 @@ ul {
     margin-top: -4.5rem;
     margin-right: 20px;
   }
+
   .card .title-div {
     padding-bottom: 6rem;
     font-size: 2rem;
@@ -477,6 +488,7 @@ ul {
   .menu-content {
     margin-right: 20px;
   }
+
   .card .title-div {
     padding-bottom: 6rem;
     margin-bottom: 0px;
@@ -489,11 +501,13 @@ ul {
     margin-top: -4.5rem;
     margin-right: 20px;
   }
+
   .card .title-div {
     padding-bottom: 6rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
+
   .skill-card {
     width: 450px;
     border: 0;
@@ -506,6 +520,7 @@ ul {
     margin-top: -4.5rem;
     margin-right: 20px;
   }
+
   .card .title-div {
     padding-bottom: 7rem;
     font-size: 2rem;
@@ -528,6 +543,7 @@ ul {
   .skill-card .data {
     transform: translateY(calc(90px + 4em));
   }
+
   .social-icon svg {
     margin-top: 20px;
   }
@@ -572,24 +588,30 @@ SVG ANIMATIONS PROJECT PAGE
   0% {
     transform: translateX(-600px);
   }
+
   50% {
     transform: translateX(-600px) scaleX(1);
   }
+
   75% {
     transform: translateX(30px) scaleX(0.9);
   }
+
   87.5% {
     transform: translateX(-5px);
   }
+
   97% {
     transform: translateX(3px);
   }
+
   to {
     transform: translateX(0) scaleX(1);
   }
 }
 
 @keyframes ekumanarmrotate {
+
   0%,
   45%,
   65%,
@@ -597,6 +619,7 @@ SVG ANIMATIONS PROJECT PAGE
   to {
     transform: rotate(0deg);
   }
+
   55%,
   75% {
     transform: rotate(-5deg);
@@ -604,16 +627,20 @@ SVG ANIMATIONS PROJECT PAGE
 }
 
 @keyframes ekumanhairwobble {
+
   50%,
   to {
     transform: scaleX(1);
   }
+
   75% {
     transform: scaleX(1.2);
   }
+
   87.5% {
     transform: scaleX(0.8);
   }
+
   97% {
     transform: scaleX(1.09);
   }
@@ -623,18 +650,23 @@ SVG ANIMATIONS PROJECT PAGE
   0% {
     transform: translateX(600px);
   }
+
   50% {
     transform: translateX(600px) scaleX(1);
   }
+
   75% {
     transform: translateX(-30px) scaleX(0.9);
   }
+
   87.5% {
     transform: translateX(5px);
   }
+
   97% {
     transform: translateX(-3px);
   }
+
   to {
     transform: translateX(0) scaleX(1);
   }
@@ -644,27 +676,34 @@ SVG ANIMATIONS PROJECT PAGE
   0% {
     transform: translateY(-230px) scale(0) rotate(0deg);
   }
+
   35% {
     transform: translateY(-230px) scale(1.03) rotate(20deg);
   }
+
   45% {
     transform: rotate(10deg);
   }
+
   50% {
     transform: translateY(-5px) scale(0.98) rotate(0deg);
   }
+
   55% {
     transform: translateY(-10px) scale(1.01) rotate(0deg);
   }
+
   60% {
     transform: translateY(0) scale(1);
   }
+
   to {
     transform: translateY(0);
   }
 }
 
 @keyframes ekuwomanarmrotate {
+
   0%,
   45%,
   65%,
@@ -672,6 +711,7 @@ SVG ANIMATIONS PROJECT PAGE
   to {
     transform: rotate(0deg);
   }
+
   55%,
   75% {
     transform: rotate(10deg);
@@ -679,6 +719,7 @@ SVG ANIMATIONS PROJECT PAGE
 }
 
 @keyframes ekuwomanarmbackrotate {
+
   0%,
   45%,
   65%,
@@ -686,6 +727,7 @@ SVG ANIMATIONS PROJECT PAGE
   to {
     transform: rotate(0deg);
   }
+
   55%,
   75% {
     transform: rotate(-13deg);
@@ -693,6 +735,7 @@ SVG ANIMATIONS PROJECT PAGE
 }
 
 @keyframes manscreenpopup {
+
   0%,
   45%,
   55%,
@@ -701,26 +744,31 @@ SVG ANIMATIONS PROJECT PAGE
   85% {
     transform: scale(0);
   }
+
   to {
     transform: scale(1);
   }
 }
 
 @keyframes manscreenfloat {
+
   0%,
   to {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
 }
 
 @keyframes backhairwave {
+
   0%,
   to {
     transform: scaleX(1) skewX(0) skewY(0);
   }
+
   50% {
     transform: scaleX(1.07) skewX(3deg) skewY(5deg);
   }

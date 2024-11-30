@@ -112,7 +112,7 @@ const showCards = () => {
   let output = "";
   moocscards.forEach(
     ({ title, cardImage, moocLink }) =>
-      (output += `        
+    (output += `        
         <div class="col-6 col-md-3 col-sm-4 column" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600" >  
             <div class="card mb-3 mx-auto">
                <div class="content">
@@ -158,7 +158,7 @@ const showCards1 = () => {
   let output = "";
   badgesection.forEach(
     ({ title, image, description }) =>
-      (output += `       
+    (output += `       
       <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
         <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
           <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>

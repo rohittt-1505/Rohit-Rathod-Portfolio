@@ -161,7 +161,7 @@ const fillData = () => {
       absbox,
       abstract,
     }) =>
-      (output += `
+    (output += `
             <tr data-aos="zoom-in-left"> 
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
                 <td class = "researchTitleName">

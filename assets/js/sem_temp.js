@@ -244,7 +244,7 @@ const fillData = () => {
   let output = "";
   sem_temp.forEach(
     ({ event_name, event_type, event_image }) =>
-      (output += `
+    (output += `
             <div class="sem_temp_slide" style="background-image: url(assets/images/sem/sem1/${event_image});">
                 <div class="sem_temp_slideBg" style="background-image: url(assets/images/sem/sem1/${event_image});"></div>
                 <div class="sem_temp_slideContent">

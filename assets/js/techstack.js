@@ -50,15 +50,15 @@ const techStack = [
     langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
   },
   {
-    langImage:"assets/images/techstack-page/c.png",
-    langName:"C",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langImage: "assets/images/techstack-page/c.png",
+    langName: "C",
+    langDesc: "<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
   },
 ];
 
 const displayTechStacksCards = () => {
   const entireCardTemplate =
-  techStack.map((stack)=> {
+    techStack.map((stack) => {
       return `        
     <div class="row page-content techstackcards" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="0" data-aos-duration="400"> 
         <div class="tech_card">
