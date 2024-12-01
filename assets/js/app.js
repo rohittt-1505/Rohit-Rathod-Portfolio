@@ -467,7 +467,7 @@ $(function submitAnimation() {
       swal("Error !", "Please enter a valid phone number (10 digits) !", "error");
       return;
     }
-    
+        
     // Check if the message field is empty
     else if (text.value == "") {
       swal("Error !", "Please enter a valid message !", "error");
