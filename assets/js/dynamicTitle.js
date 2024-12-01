@@ -1,5 +1,5 @@
 window.onload = function () {
-  const favicon = document.getElementById('favicon')
+  const favicon = document.getElementById('RR')
   const pageTitle = document.title
   const attentionMessage = 'Rohit Rathod'
 
