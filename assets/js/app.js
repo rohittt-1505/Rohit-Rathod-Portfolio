@@ -447,6 +447,7 @@ $(window).on("load", function () {
 $(function submitAnimation() {
   const name = document.querySelector("#name")
   const emailAdress = document.querySelector("#email")
+  const phoneNumber = document.querySelector("#number")
   const text = document.querySelector("#textArea")
   const emailPattern = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 
@@ -462,6 +463,11 @@ $(function submitAnimation() {
       swal("Error !", "Please enter a valid email !", "error");
       return;
     }
+    else if (phoneNumber.value == "" || !/^\d{10}$/.test(phoneNumber.value)) {
+      swal("Error !", "Please enter a valid phone number (10 digits) !", "error");
+      return;
+    }
+    
     // Check if the message field is empty
     else if (text.value == "") {
       swal("Error !", "Please enter a valid message !", "error");
@@ -476,10 +482,14 @@ $(function submitAnimation() {
       setTimeout(function () {
         $("#lnch").addClass("launched").text("SENT");
         $("#lnch_btn").addClass("launched");
-      }, 2500);
+      }, 1500);
       // Wait for 2.2 seconds so that the send button animation can be fully played before submitting the form
       setTimeout(() => {
         document.querySelector('form').submit();
+        name.value = '';
+        emailAdress.value = '';
+        phoneNumber.value = '';
+        text.value = '';
       }, 2200);
     }
   });
