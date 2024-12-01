@@ -1094,6 +1094,58 @@ button {
   animation: shake 0.3s ease 0.5s infinite;
 }
 
+/* Resume button */
+#lnch1 :hover {
+  cursor: pointer;
+  outline: none;
+
+}
+
+#lnch1 {
+  font-size: 25px;
+  color: #fff;
+  line-height: 1;
+  text-align: center;
+  border-radius: 50px;
+  border-style: none;
+  transition: 0.5s ease background-color, 0.5s ease box-shadow;
+  background: #bb86fc;
+}
+
+#lnch1_btn {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  font-size: 22px;
+  line-height: 1;
+  color: #fff;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: 0.3s ease transform;
+}
+
+#lnch1.launching {
+  background-color: #f39c12;
+  box-shadow: 0 10px 20px -6px #f39c12;
+}
+
+#lnch1_btn.launching {
+  transform: rotateZ(-90deg);
+  animation: shake 0.3s ease 0.5s infinite;
+}
+
+#lnch1.launched {
+  background-color: #27ae60;
+  box-shadow: 0 10px 20px -6px #27ae60;
+}
+
+#lnch1_btn.launched {
+  transform: rotateZ(-90deg);
+  animation: moveUp 1s ease 0s forwards;
+}
+
+/* Resume button end */
+
 @keyframes shake {
 
   10%,
