@@ -252,8 +252,9 @@ let footer = $(`
                                     c6,5.1,10.8,11.5,13.8,18.8c2.9,7.4,7.7,24.1,41.5,17.8" />
     </svg>
     </a>
-
-
+    <div class="footer-copyright">
+    <p>© 2024 Rohit Rathod. All rights reserved.</p>
+  </div>
     
     </div>
     </div>

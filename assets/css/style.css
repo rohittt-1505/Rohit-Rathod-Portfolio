@@ -1140,3 +1140,23 @@ button {
     transform: scale(0) rotateZ(-90deg);
   }
 }
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-media-icons {
+  margin-bottom: 10px;
+}
+
+.social-media-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-copyright p {
+  font-size: 14px;
+  color: #6c757d;
+}
