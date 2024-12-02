@@ -123,7 +123,7 @@ const showCards = () => {
               <div class="content">
               <div class="title-div">
                 <h1 class="title"><a href="#">${title}</a></h1>
-                <p class="self"><a href="#">${description}</a></p>
+                <!--<p class="self"><a href="#">${description}</a></p>-->
                 </div>
                
             <ul class="menu-content"><br>
