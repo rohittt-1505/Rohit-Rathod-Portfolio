@@ -904,3 +904,8 @@ SVG ANIMATIONS PROJECT PAGE
   animation-duration: 3.3s;
   transform-origin: 785.132px 295.833px;
 }
+
+/* self */
+.self{
+  color: #080808;
+}
