@@ -824,6 +824,7 @@ Contact Form In Footer
   font-weight: 200;
   line-height: 22px;
   border-bottom: 3px solid #bb86fc;
+  position: fixed;
 }
 
 .form-header {
