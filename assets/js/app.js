@@ -497,18 +497,24 @@ $(function submitAnimation() {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const hamburger = document.querySelector(".hamburger"); // Select the hamburger menu button
-  const navMenu = document.querySelector(".nav-menu"); // Select the navigation menu
-  const contactLink = document.querySelector(".contact-link"); // Select the Contact link
+  const hamburger = document.querySelector(".hamburger"); // Hamburger button
+  const navMenu = document.querySelector(".nav-menu"); // Navigation menu
+  const contactLink = document.querySelector("a[href='#contact']"); // Contact link in the navbar
 
-  // Function to close the menu
+  // Function to close the hamburger menu
   function closeHamburgerMenu() {
-      hamburger.classList.remove("active"); // Remove active class from hamburger
-      navMenu.classList.remove("active"); // Remove active class from nav menu
+      hamburger.classList.remove("active"); // Remove 'active' class from hamburger
+      navMenu.classList.remove("active"); // Remove 'active' class from nav menu
   }
 
-  // Add event listener to Contact link
+  // Close the hamburger menu when the "Contact" link is clicked
   contactLink.addEventListener("click", () => {
-      closeHamburgerMenu(); // Close menu when Contact is clicked
+      closeHamburgerMenu(); // Close the menu
+  });
+
+  // Add toggle functionality to the hamburger
+  hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
   });
 });
