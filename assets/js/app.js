@@ -28,7 +28,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Resume</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="#contact">Contact</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link contact-link" href="#contact">Contact</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -492,5 +492,23 @@ $(function submitAnimation() {
         text.value = '';
       }, 2200);
     }
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.querySelector(".hamburger"); // Select the hamburger menu button
+  const navMenu = document.querySelector(".nav-menu"); // Select the navigation menu
+  const contactLink = document.querySelector(".contact-link"); // Select the Contact link
+
+  // Function to close the menu
+  function closeHamburgerMenu() {
+      hamburger.classList.remove("active"); // Remove active class from hamburger
+      navMenu.classList.remove("active"); // Remove active class from nav menu
+  }
+
+  // Add event listener to Contact link
+  contactLink.addEventListener("click", () => {
+      closeHamburgerMenu(); // Close menu when Contact is clicked
   });
 });

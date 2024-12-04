@@ -1212,3 +1212,18 @@ button {
   font-size: 14px;
   color: #6c757d;
 }
+
+
+/* self */
+
+.nav-menu {
+  display: none; /* Hidden by default */
+}
+
+.nav-menu.active {
+  display: block; /* Visible when active */
+}
+
+.hamburger.active {
+  /* Optional: Add any styles for the active state */
+}
