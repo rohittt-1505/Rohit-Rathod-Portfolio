@@ -1198,6 +1198,57 @@ button {
 
 /* Explore more button end */
 
+/* In More Button (TP) */
+/* Container for the buttons */
+.button-container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 buttons per row */
+  gap: 20px; /* Space between buttons */
+  padding: 20px;
+  justify-items: center; /* Center buttons horizontally */
+}
+
+.btnn {
+  background-color: #bb86fc;
+  border: none;
+  /* color: white; */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+
+  font-weight: 400;
+  color: #212529;
+  vertical-align: middle;
+}
+
+#lnch2 :hover {
+  cursor: pointer;
+  outline: none;
+
+}
+
+/* Ensure the buttons are responsive */
+@media (max-width: 768px) {
+  .button-container {
+    grid-template-columns: 1fr; /* Stack buttons vertically on smaller screens */
+  }
+}
+
+/* END In More Button (TP) */
+
+/* Ensure the buttons are responsive */
+@media (max-width: 768px) {
+  .button-container1 {
+    grid-template-columns: 1fr; /* Stack buttons vertically on smaller screens */
+  }
+}
+
+
 @keyframes shake {
 
   10%,
