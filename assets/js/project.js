@@ -169,7 +169,7 @@ function myFunction() {
   }
 }
 
-document.querySelectorAll(".project-card").forEach((card, index) => {
+document.querySelectorAll(".projectcards").forEach((card, index) => {
   card.addEventListener("click", () => {
     const project = projects[index];
     if (project.Previewlink) {
