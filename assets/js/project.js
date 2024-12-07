@@ -169,3 +169,17 @@ function myFunction() {
   }
 }
 
+document.querySelectorAll(".project-card").forEach((card, index) => {
+  card.addEventListener("click", () => {
+    const project = projects[index];
+    if (project.Previewlink) {
+      window.open(
+        project.Previewlink,
+        "_blank",
+        "width=375,height=667,toolbar=no,menubar=no,scrollbars=yes,resizable=no"
+      );
+    } else {
+      alert("No preview link available for this project.");
+    }
+  });
+});
