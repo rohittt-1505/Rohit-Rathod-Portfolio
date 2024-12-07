@@ -1250,17 +1250,23 @@ button {
 .btnn {
   display: inline-block;
   padding: 10px 20px;
-  /* background-color: #bb86fc; */
-  color: #fff;
-  text-decoration: none;
-  text-align:center;
+  background-color: #bb86fc;  /* Set background color to #bb86fc */
+  text-decoration: none;  /* Remove the underline from links */
+  text-align: center;
   border-radius: 50px;
-  font-size: 25px;
-  transition: background-color 0.3s ease;
-  color: #fff;
-  line-height: 0.5;
-  border-style: none;
-  background: #bb86fc;
+  font-size: 16px;
+  border: 2px solid #bb86fc;  /* Border color to match button background */
+}
+
+/* Ensure anchor text inside button is black */
+.btnn a {
+  color: black;  /* Set text color to black inside the anchor */
+  text-decoration: none;  /* Remove underline from links */
+}
+
+/* Remove hover effect */
+.btnn:hover {
+  background-color: #bb86fc;  /* Keep the same background on hover */
 }
 
 /* On larger screens, layout in 1-1-1 format (for laptop and desktop) */
