@@ -122,8 +122,8 @@ const showCards = () => {
             <div class="data">
               <div class="content">
               <div class="title-div">
-                <h1 class="title"><a href="#">${title}</a></h1>
-                <!--<p class="self"><a href="#">${description}</a></p>-->
+                <h1 class="title"><a href="${Previewlink}">${title}</a></h1>
+                <!--<p class="self"><a href="${Previewlink}">${description}</a></p>-->
                 </div>
                
             <ul class="menu-content"><br>
@@ -169,17 +169,5 @@ function myFunction() {
   }
 }
 
-document.querySelectorAll(".projectcards").forEach((card, index) => {
-  card.addEventListener("click", () => {
-    const project = projects[index];
-    if (project.Previewlink) {
-      window.open(
-        project.Previewlink,
-        "_blank",
-        "width=375,height=667,toolbar=no,menubar=no,scrollbars=yes,resizable=no"
-      );
-    } else {
-      alert("No preview link available for this project.");
-    }
-  });
-});
+// 
+
