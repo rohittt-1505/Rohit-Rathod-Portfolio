@@ -1043,7 +1043,7 @@ Send button micro animation
 
 #main {
   position: relative;
-  margin-left: 3rem;
+  margin-left: 4rem;
   width: 240px;
 
 }
@@ -1243,8 +1243,14 @@ button {
 
 /* Ensure the buttons are responsive */
 @media (max-width: 768px) {
-  .button-container1 {
-    grid-template-columns: 1fr; /* Stack buttons vertically on smaller screens */
+  /* You can adjust the font size of the button and icon if needed */
+  #lnch {
+    padding: 12px 24px; /* Adjust padding on smaller screens */
+    font-size: 14px;
+  }
+
+  #lnch_btn {
+    font-size: 20px; /* Slightly smaller icon on mobile */
   }
 }
 
