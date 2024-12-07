@@ -1200,57 +1200,6 @@ button {
 
 /* Resume button end */
 
-/* Explore more button */
-#lnch2 :hover {
-  cursor: pointer;
-  outline: none;
-
-}
-
-#lnch2 {
-  font-size: 25px;
-  color: #fff;
-  line-height: 1;
-  text-align: center;
-  border-radius: 50px;
-  border-style: none;
-  transition: 0.5s ease background-color, 0.5s ease box-shadow;
-  background: #bb86fc;
-}
-
-#lnch2_btn {
-  position: absolute;
-  top: 0px;
-  right: 0;
-  font-size: 22px;
-  line-height: 1;
-  color: #fff;
-  padding: 10px 50px;
-  cursor: pointer;
-  transition: 0.3s ease transform;
-}
-
-#lnch2.launching {
-  background-color: #f39c12;
-  box-shadow: 0 10px 20px -6px #f39c12;
-}
-
-#lnch2_btn.launching {
-  transform: rotateZ(-90deg);
-  animation: shake 0.3s ease 0.5s infinite;
-}
-
-#lnch2.launched {
-  background-color: #27ae60;
-  box-shadow: 0 10px 20px -6px #27ae60;
-}
-
-#lnch2_btn.launched {
-  transform: rotateZ(-90deg);
-  animation: moveUp 1s ease 0s forwards;
-}
-
-/* Explore more button end */
 
 /* In More Button (TP) */
 /* Container for the buttons */
