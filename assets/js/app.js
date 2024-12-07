@@ -253,9 +253,10 @@ let footer = $(`
     </svg>
     </a>
     <div class="footer-copyright">
+          <button id="lnch1" type="buttonn" value="Send"><a href="assets/photos/Rohit Rathod CV 24 .pdf" class="btn" target="_blank">✧Explore More✧</a></button>
     <p>© 2024 Rohit Rathod. All rights reserved.</p>
-  </div>
-    
+    </div>
+  
     </div>
     </div>
 </footer>
