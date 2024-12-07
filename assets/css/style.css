@@ -1200,51 +1200,6 @@ button {
 
 /* Resume button end */
 
-
-/* In More Button (TP) */
-/* Container for the buttons */
-.button-container1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 buttons per row */
-  gap: 20px; /* Space between buttons */
-  padding: 20px;
-  justify-items: center; /* Center buttons horizontally */
-}
-
-.btnn {
-  background-color: #bb86fc;
-  border: none;
-  /* color: white; */
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 50px;
-  transition: background-color 0.3s ease;
-  justify-content: center;
-
-  font-weight: 400;
-  color: #212529;
-  vertical-align: middle;
-}
-
-#lnch2 :hover {
-  cursor: pointer;
-  outline: none;
-
-}
-
-/* Ensure the buttons are responsive */
-@media (max-width: 768px) {
-  .button-container {
-    grid-template-columns: 1fr; /* Stack buttons vertically on smaller screens */
-  }
-}
-
-/* END In More Button (TP) */
-
-
 .footer {
   background-color: #f8f9fa;
   padding: 20px 0;
@@ -1278,4 +1233,57 @@ button {
 
 .hamburger.active {
   /* Optional: Add any styles for the active state */
+}
+
+
+/* More.... buttons */
+/* General button container styling */
+.button-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Button styling */
+.btnn {
+  display: inline-block;
+  padding: 10px 20px;
+  /* background-color: #bb86fc; */
+  color: #fff;
+  text-decoration: none;
+  text-align:center;
+  border-radius: 50px;
+  font-size: 25px;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  line-height: 0.5;
+  border-style: none;
+  background: #bb86fc;
+}
+
+/* On larger screens, layout in 1-1-1 format (for laptop and desktop) */
+@media (min-width: 768px) {
+  .button-container1 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .btnn {
+    flex: 1 1 calc(33.33% - 20px); /* 3 buttons per row */
+  }
+}
+
+/* On smaller screens (mobile) stack buttons vertically */
+@media (max-width: 767px) {
+  .button-container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btnn {
+    width: 100%;
+    margin-bottom: 10px; /* Adds space between buttons */
+  }
 }
