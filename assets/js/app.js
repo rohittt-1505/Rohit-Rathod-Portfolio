@@ -29,6 +29,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Resume</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link contact-link" href="#contact">Contact</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="tp.html">More...</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -253,7 +254,6 @@ let footer = $(`
     </svg>
     </a>
     <div class="footer-copyright">
-          <button id="lnch1" type="button" value="Send"><a href="tp.html" class="btn" target="_blank">✧Explore More✧</a></button>
     <p>© 2024 Rohit Rathod. All rights reserved.</p>
     </div>
   
@@ -468,7 +468,7 @@ $(function submitAnimation() {
       swal("Error !", "Please enter a valid phone number (10 digits) !", "error");
       return;
     }
-        
+
     // Check if the message field is empty
     else if (text.value == "") {
       swal("Error !", "Please enter a valid message !", "error");
@@ -504,18 +504,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Function to close the hamburger menu
   function closeHamburgerMenu() {
-      hamburger.classList.remove("active"); // Remove 'active' class from hamburger
-      navMenu.classList.remove("active"); // Remove 'active' class from nav menu
+    hamburger.classList.remove("active"); // Remove 'active' class from hamburger
+    navMenu.classList.remove("active"); // Remove 'active' class from nav menu
   }
 
   // Close the hamburger menu when the "Contact" link is clicked
   contactLink.addEventListener("click", () => {
-      closeHamburgerMenu(); // Close the menu
+    closeHamburgerMenu(); // Close the menu
   });
 
   // Add toggle functionality to the hamburger
   hamburger.addEventListener("click", () => {
-      hamburger.classList.toggle("active");
-      navMenu.classList.toggle("active");
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
   });
 });
