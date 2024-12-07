@@ -122,15 +122,15 @@ const showCards = () => {
             <div class="data">
               <div class="content">
               <div class="title-div">
-                <h1 class="title"><a href="${Previewlink}">${title}</a></h1>
-                <!--<p class="self"><a href="${Previewlink}">${description}</a></p>-->
+                <h1 class="title"><a href="${Previewlink}" target="_blank">${title}</a></h1>
+                <!--<p class="self"><a href="${Previewlink}" target="_blank">${description}</a></p>-->
                 </div>
                
             <ul class="menu-content"><br>
 
 
-                  <!--<a href="${Previewlink}" class="social-icon" target="_blank"><i class="fas fa-eye"></i> View</a>
-                  <a href="${Githublink}" class="social-icon" target="_blank">Code <i class="fas fa-code"></i></a>-->
+                  <!--<a href="${Previewlink}" target="_blank" class="social-icon" target="_blank"><i class="fas fa-eye"></i> View</a>
+                  <a href="${Githublink}" target="_blank" class="social-icon" target="_blank">Code <i class="fas fa-code"></i></a>-->
 
 
                   <li><a href="${Previewlink}" target="_blank" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></a></li>
