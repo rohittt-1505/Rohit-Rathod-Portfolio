@@ -80,5 +80,5 @@ const displayTechStacksCards = () => {
       `}).join('');
   techStackCards.innerHTML = entireCardTemplate;
 };
-// displayTechStacksCards(techStack)
+displayTechStacksCards(techStack)
 document.addEventListener("DOMContentLoaded", displayTechStacksCards);
