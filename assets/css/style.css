@@ -1033,16 +1033,18 @@ form {
   -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   -khtml-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
-  
+
 }
 
 /* Profile pic effect 08/12/2024 */
 .rounded-circle {
-  transition: transform 0.4s ease; /* Smooth zoom-in transition */
+  transition: transform 0.4s ease;
+  /* Smooth zoom-in transition */
 }
 
 .rounded-circle:hover {
-  transform: scale(1.1); /* Zoom-in effect */
+  transform: scale(1.1);
+  /* Zoom-in effect */
 }
 
 /*
@@ -1106,7 +1108,8 @@ button {
 /* Ensure the buttons are responsive */
 @media (max-width: 768px) {
   .button-container1 {
-    grid-template-columns: 1fr; /* Stack buttons vertically on smaller screens */
+    grid-template-columns: 1fr;
+    /* Stack buttons vertically on smaller screens */
   }
 }
 
@@ -1234,11 +1237,13 @@ button {
 /* self */
 
 .nav-menu {
-  display: none; /* Hidden by default */
+  display: none;
+  /* Hidden by default */
 }
 
 .nav-menu.active {
-  display: block; /* Visible when active */
+  display: block;
+  /* Visible when active */
 }
 
 .hamburger.active {
@@ -1260,23 +1265,29 @@ button {
 .btnn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #bb86fc;  /* Set background color to #bb86fc */
-  text-decoration: none;  /* Remove the underline from links */
+  background-color: #bb86fc;
+  /* Set background color to #bb86fc */
+  text-decoration: none;
+  /* Remove the underline from links */
   text-align: center;
   border-radius: 50px;
   font-size: 16px;
-  border: 2px solid #bb86fc;  /* Border color to match button background */
+  border: 2px solid #bb86fc;
+  /* Border color to match button background */
 }
 
 /* Ensure anchor text inside button is black */
 .btnn a {
-  color: black;  /* Set text color to black inside the anchor */
-  text-decoration: none;  /* Remove underline from links */
+  color: black;
+  /* Set text color to black inside the anchor */
+  text-decoration: none;
+  /* Remove underline from links */
 }
 
 /* Remove hover effect */
 .btnn:hover {
-  background-color: #bb86fc;  /* Keep the same background on hover */
+  background-color: #bb86fc;
+  /* Keep the same background on hover */
 }
 
 /* On larger screens, layout in 1-1-1 format (for laptop and desktop) */
@@ -1287,7 +1298,8 @@ button {
   }
 
   .btnn {
-    flex: 1 1 calc(33.33% - 20px); /* 3 buttons per row */
+    flex: 1 1 calc(33.33% - 20px);
+    /* 3 buttons per row */
   }
 }
 
@@ -1300,6 +1312,7 @@ button {
 
   .btnn {
     width: 100%;
-    margin-bottom: 10px; /* Adds space between buttons */
+    margin-bottom: 10px;
+    /* Adds space between buttons */
   }
 }
