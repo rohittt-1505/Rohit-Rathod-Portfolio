@@ -7,34 +7,47 @@ const referenceTable = document.querySelector(".pain");
 const references = [
     {
         sl1: 1,
-        name1: "Smaranjit Ghose",
-        designation1: "Product Manager, Microsoft",
-        image1: "https://avatars.githubusercontent.com/u/46641503?v=4",
-        message1: "John is a conscientious individual whom I mentored during JWOC'2021. His problem-solving skills and a keen interest in learning new skillsets are remarkable. His hardworking nature and team-building abilities make him different from others.",
+        name1: "Vimlendu Yadav",
+        designation1: "BE-EXTC, KCCEMSR",
+        image1: "assets/photos/vimlendu.jpeg",
+        message1: "I've always been amazed by Rohit Rathod ability to balance academics and creativity. Their passion for learning and pushing boundaries is truly inspiring.",
 
 
         sl2: 2,
-        name2: "Anush Bhatia",
-        designation2: "Senior Analyst, Capgemini",
-        image2: "https://avatars.githubusercontent.com/u/40017559?v=4",
-        message2: "John has the best grasping skills I have seen in a new developer. I got to know him through GSSOC'2021 when I mentored him, and he made an exceptional growth during the competition. He made some incredible contributions and has good experience with Open Source.",
-
+        name2: "Amaan Rakhangi",
+        designation2: "BE-EXTC, KCCEMSR",
+        image2: "assets/photos/Amaan.jpeg",
+        message2: "What sets Rohit apart is their ability to think outside the box. Their innovation and problem-solving skills are second to none!",
 
     },
 
     {
         sl1: 3,
-        name1: "Aditya Jyoti Paul",
-        designation1: "Technical Analyst, Amazon",
-        image1: "https://media-exp1.licdn.com/dms/image/C5603AQGEV-kzawPxjw/profile-displayphoto-shrink_800_800/0/1588602102622?e=1651708800&v=beta&t=8nxhFoR-WB4OKVltyYaVjmRpig_kQcvFsoa-eLjJPBQ",
-        message1: "John and I have worked on several projects. Apart from technical skills, he also has good soft skills. He has good experience with debugging and has excellent leadership qualities.",
+        name1: "Manas Gadge",
+        designation1: "BE-EXTC, KCCEMSR",
+        image1: "assets/photos/Manas.jpeg",
+        message1: "Whenever a complex issue arises, I know I can count on Rohit to provide a solution. Their analytical thinking and persistence make them an invaluable team member.",
 
 
         sl2: 4,
-        name2: "Arnab Dutta Purkayastha",
-        designation2: "Data Scientist, Flipkart",
+        name2: "Aman Khan",
+        designation2: "BE-EXTC, KCCEMSR",
         image2: "https://avatars.githubusercontent.com/u/59832779?v=4",
-        message2: "John and I worked together during a hackathon and the thing that surprised me the most about him was his knowledge of fundamentals. He offered sincere help to the team throughout the competition. He is an impressive problem solver who is able to address complex issues strategically and confidently.",
+        message2: "Not only is Rohit an exceptional student, but they also make a great leader. Their support, guidance, and positivity always make a difference in any group.",
+    },
+    {
+        sl1: 3,
+        name1: "Harsh Patole",
+        designation1: "BE-EXTC, KCCEMSR",
+        image1: "https://media-exp1.licdn.com/dms/image/C5603AQGEV-kzawPxjw/profile-displayphoto-shrink_800_800/0/1588602102622?e=1651708800&v=beta&t=8nxhFoR-WB4OKVltyYaVjmRpig_kQcvFsoa-eLjJPBQ",
+        message1: "Rohit consistently goes above and beyond. Their work ethic and attention to detail make them stand out in everything they do.",
+
+
+        sl2: 4,
+        name2: "Maaz Khan",
+        designation2: "BE-CS, KCCEMSR",
+        image2: "https://avatars.githubusercontent.com/u/59832779?v=4",
+        message2: "Whether it’s academic pursuits or personal projects, Rohit sets clear goals and works relentlessly to achieve them. Their drive is truly inspiring.",
     },
 ];
 
