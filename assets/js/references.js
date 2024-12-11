@@ -1,7 +1,3 @@
-/*Reference Details Table*/
-// Changes made 10/1/2021:
-// Added reviewphoto1 - reviewphoto5 in assets/references-page
-// Changed names and descriptions of references
 const referenceTable = document.querySelector(".pain");
 
 const references = [
@@ -32,21 +28,21 @@ const references = [
         sl2: 4,
         name2: "Aman Khan",
         designation2: "BE-EXTC, KCCEMSR",
-        image2: "https://avatars.githubusercontent.com/u/59832779?v=4",
+        image2: "assets/photos/",
         message2: "Not only is Rohit an exceptional student, but they also make a great leader. Their support, guidance, and positivity always make a difference in any group.",
     },
     {
         sl1: 3,
         name1: "Harsh Patole",
         designation1: "BE-EXTC, KCCEMSR",
-        image1: "https://media-exp1.licdn.com/dms/image/C5603AQGEV-kzawPxjw/profile-displayphoto-shrink_800_800/0/1588602102622?e=1651708800&v=beta&t=8nxhFoR-WB4OKVltyYaVjmRpig_kQcvFsoa-eLjJPBQ",
+        image1: "assets/photos/",
         message1: "Rohit consistently goes above and beyond. Their work ethic and attention to detail make them stand out in everything they do.",
 
 
         sl2: 4,
         name2: "Maaz Khan",
         designation2: "BE-CS, KCCEMSR",
-        image2: "https://avatars.githubusercontent.com/u/59832779?v=4",
+        image2: "assets/photos/",
         message2: "Whether it’s academic pursuits or personal projects, Rohit sets clear goals and works relentlessly to achieve them. Their drive is truly inspiring.",
     },
 ];
