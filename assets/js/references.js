@@ -28,7 +28,7 @@ const references = [
         sl2: 4,
         name2: "Aman Khan",
         designation2: "BE-EXTC, KCCEMSR",
-        image2: "assets/photos/",
+        image2: "assets/photos/Aman.jpeg",
         message2: "Not only is Rohit an exceptional student, but they also make a great leader. Their support, guidance, and positivity always make a difference in any group.",
     },
     {
