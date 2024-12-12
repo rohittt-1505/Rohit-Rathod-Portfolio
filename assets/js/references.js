@@ -35,7 +35,7 @@ const references = [
         sl1: 3,
         name1: "Harsh Patole",
         designation1: "BE-EXTC, KCCEMSR",
-        image1: "assets/photos/",
+        image1: "assets/photos/Harsh.jpg",
         message1: "Rohit consistently goes above and beyond. Their work ethic and attention to detail make them stand out in everything they do.",
 
 
