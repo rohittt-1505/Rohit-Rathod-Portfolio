@@ -1316,3 +1316,12 @@ button {
     /* Adds space between buttons */
   }
 }
+
+
+/* Centre the resume button */
+/* General Styles for Centering */
+.dropdown3 {
+  display: flex;
+  padding-top: 1%;
+  margin-left: 25%;
+}
