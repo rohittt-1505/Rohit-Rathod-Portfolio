@@ -271,14 +271,14 @@ let upArrow = $(`
   })
 `);
 
-let websiteLogo = $(`
-  <a href="https://rohitrathod.netlify.app/" target="_blank" id="btnWebsiteLogo">
-    <i class="fas fa-link"></i>
-  </a>
-  <link rel="stylesheet" type="text/css" href="./css/style.css" />
-`);
+// let websiteLogo = $(`
+//   <a href="https://rohitrathod.netlify.app/" target="_blank" id="btnWebsiteLogo">
+//     <i class="fas fa-link"></i>
+//   </a>
+//   <link rel="stylesheet" type="text/css" href="./css/style.css" />
+// `);
 
-$("body").append(websiteLogo);
+// $("body").append(websiteLogo);
 
 $(document).ready(function () {
   // updating the color of the swiper bullets (initial update of color)
