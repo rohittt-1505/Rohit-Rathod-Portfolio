@@ -229,6 +229,8 @@ let footer = $(`
       </svg>
     </a>
 
+    
+
     <a class="social-button instagram" href="https://www.instagram.com/rx.hittt/" target="_blank" >
     <!-- svg code for instagram icon -->
       <svg class="instagram-icon-footer" x="0px" y="0px" viewBox="0 0 202.5 202.5"
@@ -254,7 +256,7 @@ let footer = $(`
     </svg>
     </a>
     <div class="footer-copyright">
-    <p>© 2024 Rohit Rathod. All rights reserved.</p>
+    <p>© 2025 Rohit Rathod. All rights reserved.</p>
     </div>
   
     </div>
@@ -268,6 +270,15 @@ let upArrow = $(`
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
   })
 `);
+
+let websiteLogo = $(`
+  <a href="https://rohitrathod.netlify.app/" target="_blank" id="btnWebsiteLogo">
+    <i class="fas fa-link"></i>
+  </a>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+`);
+
+$("body").append(websiteLogo);
 
 $(document).ready(function () {
   // updating the color of the swiper bullets (initial update of color)
