@@ -5,27 +5,27 @@ document.addEventListener("DOMContentLoaded", () => {
   // json variable for injecting html into DOM
   const travel_data = [
     {
-      day: "Day 1",
+      day: "click",
       description: "Jim Corbett National Park",
       background_image: "assets/images/travel/trip1/jim.jpg"
     },
     {
-      day: "Day 2",
+      day: "click",
       description: "Nainital",
       background_image: "assets/images/travel/trip1/nainital1.jpg"
     },
     {
-      day: "Day 3",
+      day: "click",
       description: "Naini Lake Nainital",
       background_image: "assets/images/travel/trip1/naini.jpg"
     },
     {
-      day: "Day 4",
+      day: "click",
       description: "Mussoorie",
       background_image: "assets/images/travel/trip1/masu.JPG"
     },
     {
-      day: "Day 5",
+      day: "click",
       description: "Rishikesh River Rafting",
       background_image: "assets/images/travel/trip1/river.JPG"
     }

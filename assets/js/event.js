@@ -11,7 +11,8 @@ $(document).ready(function () {
       title: "Keynote on XYZ",
       image: "assets/images/event/image2.jpg",
     },
-    { title: "Group Picture", image: "assets/images/event/image1.jpg" },
+    { title: "Group Picture", 
+      image: "assets/images/event/image1.jpg" },
     {
       title: "Presentation",
       image: "assets/images/event/image4.jpg",
@@ -33,6 +34,7 @@ $(document).ready(function () {
       image: "assets/images/event/image8.jpg",
     },
   ];
+  
   // Filling the details from the object array event
   function fillData() {
     let output = "";
