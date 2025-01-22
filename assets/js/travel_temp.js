@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       day: "Day 2",
-      description: "Nanital",
+      description: "Nainital",
       background_image: "assets/images/travel/trip1/nainital1.jpg"
     },
     {
       day: "Day 3",
-      description: "Naini Lake Nanital",
+      description: "Naini Lake Nainital",
       background_image: "assets/images/travel/trip1/naini.jpg"
     },
     {
