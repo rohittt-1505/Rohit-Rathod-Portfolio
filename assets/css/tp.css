@@ -356,12 +356,12 @@
   }
   
   .btnnn:hover {
-    background-color: #bb86fc; /* Light gray color when hovered */
+    background-color: #9a4bff; /* Light gray color when hovered */
     border-color: #bbb; /* Slightly darker border on hover */
   }
   
   .btnnn:active {
-    background-color: #bb86fc; /* Even darker background on click */
+    background-color: #9a4bff; /* Even darker background on click */
   }
   
   /* Responsive Design for Mobile */
