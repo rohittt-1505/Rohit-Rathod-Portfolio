@@ -5,11 +5,11 @@ $(document).ready(function () {
     // eslint-disable-next-line linebreak-style
     {
       title: "Talk on ABC",
-      image: "assets/images/event/image3.jpg",
+      image: "assets/images/travel/trip1/jim.jpg",
     },
     {
       title: "Keynote on XYZ",
-      image: "assets/images/event/image2.jpg",
+      image: "assets/images/travel/trip1/naini.jpg",
     },
     { title: "Group Picture", 
       image: "assets/images/event/image1.jpg" },
