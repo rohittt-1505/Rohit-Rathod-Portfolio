@@ -552,46 +552,46 @@ body {
 /*hero section ends*/
 
 /* button */
-/* Button container */
-.button-container4 {
+/* Buttons 22/01/25 */
+.button-container3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Adjust as needed */
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
   }
   
-  /* Button styling */
   .btnnnn {
-    background-color: #bb86fc; /* Button background color */
+    background-color: #bb86fc; /* Button color */
     color: white;
     border: none;
     padding: 15px 30px;
     font-size: 16px;
+    margin: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     border-radius: 50px;
-    width: 100%; /* Make the button take full width */
-    max-width: 250px; /* Limit max-width for better control */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; /* Ensure button height adjusts with content */
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    width: 100%; /* Make the button take full width on mobile */
+    max-width: 200px; /* Maximum width of the button */
   }
   
-  /* Button hover effect */
   .btnnnn:hover {
-    background-color: #9a4bff; /* Darker shade for hover effect */
+    background-color: #9a4bff; /* Darker shade for button hover effect */
   }
   
   /* Responsive Design for Mobile */
   @media (max-width: 768px) {
+    .button-container3 {
+      height: auto; /* Allow height to be flexible on smaller screens */
+      padding-top: 50px; /* Add some padding on top to space out the buttons */
+    }
+  
     .btnnnn {
-      width: 80%; /* Make buttons slightly smaller on mobile */
+      width: 70%; /* Make buttons smaller on mobile */
       max-width: none; /* Remove max-width restriction for mobile */
-      padding: 10px 20px; /* Adjust padding for smaller buttons */
-      font-size: 14px; /* Decrease font size for mobile */
+      padding: 8px 15px; /* Adjust padding for even smaller buttons */
+      font-size: 12px; /* Further decrease font size for mobile */
     }
   }
   
