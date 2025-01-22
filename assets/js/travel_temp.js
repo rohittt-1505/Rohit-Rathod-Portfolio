@@ -6,28 +6,28 @@ document.addEventListener("DOMContentLoaded", () => {
   const travel_data = [
     {
       day: "Day 1",
-      description: "description",
-      background_image: "assets/images/travel/trip1/street.jpg"
+      description: "Jim Corbett National Park",
+      background_image: "assets/images/travel/trip1/jim.jpg"
     },
     {
       day: "Day 2",
-      description: "description",
-      background_image: "assets/images/travel/trip1/qutub_minar.jpg"
+      description: "Nanital",
+      background_image: "assets/images/travel/trip1/nainital1.jpg"
     },
     {
       day: "Day 3",
-      description: "description",
-      background_image: "assets/images/travel/trip1/lotus_temple.jpg"
+      description: "Naini Lake Nanital",
+      background_image: "assets/images/travel/trip1/naini.jpg"
     },
     {
       day: "Day 4",
-      description: "description",
-      background_image: "assets/images/travel/trip1/old_fort.jpg"
+      description: "Mussoorie",
+      background_image: "assets/images/travel/trip1/masu.JPG"
     },
     {
       day: "Day 5",
-      description: "description",
-      background_image: "assets/images/travel/trip1/red_fort.jpg"
+      description: "Rishikesh River Rafting",
+      background_image: "assets/images/travel/trip1/river.JPG"
     }
   ];
 
