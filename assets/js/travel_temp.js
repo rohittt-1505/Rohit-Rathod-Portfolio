@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   fillData();
 
-  // document.addEventListener("DOMContentLoaded", fillData);
+  document.addEventListener("DOMContentLoaded", fillData);
   /* dynamic load */
 
   var $cont = document.querySelector('.cont');
