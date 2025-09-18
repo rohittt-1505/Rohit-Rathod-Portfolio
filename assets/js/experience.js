@@ -4,6 +4,20 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+  // {
+  //  title: "Software Developer",
+  //  cardImage: "assets/photos/dot net.jpg",  
+  //  place: '<a href="https://edas.tech/" target="_blank">eDAS - Eureka Digitisation and Automation Services</a>',
+  //  time: "(July 2024 - Present)",
+  //  desp: "<li>Building skills in ASP.NET Core MVC, C#, and SQL.</li> <li>Developing web applications and APIs with .NET Core framework.</li> <li>Gaining hands-on experience in database integration and enterprise-level application development.</li>",
+  // },
+  {
+    title: "Software Developer",
+    cardImage: "assets/photos/dot net.jpg",  // you can replace with your image/logo
+    place: "eDAS - Eureka Digitisation and Automation Services",
+    time: "(July 2024 - Present)",
+    desp: "<li>Building skills in ASP.NET Core MVC, C#, and SQL.</li> <li>Developing web applications and APIs with .NET Core framework.</li> <li>Gaining hands-on experience in database integration and enterprise-level application development.</li>",
+  },
   {
     title: "Python Internship",
     cardImage: "assets/photos/Pythonn.webp",
