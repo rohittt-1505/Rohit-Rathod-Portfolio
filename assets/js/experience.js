@@ -11,6 +11,8 @@ const exp = [
   //  time: "(July 2024 - Present)",
   //  desp: "<li>Building skills in ASP.NET Core MVC, C#, and SQL.</li> <li>Developing web applications and APIs with .NET Core framework.</li> <li>Gaining hands-on experience in database integration and enterprise-level application development.</li>",
   // },
+  
+  //18/09/2025
   {
     title: "Software Developer",
     cardImage: "assets/photos/dot net.jpg",  // you can replace with your image/logo
@@ -18,13 +20,13 @@ const exp = [
     time: "(July 2024 - Present)",
     desp: "<li>Building skills in ASP.NET Core MVC, C#, and SQL.</li> <li>Developing web applications and APIs with .NET Core framework.</li> <li>Gaining hands-on experience in database integration and enterprise-level application development.</li>",
   },
-  {
-    title: "Python Internship",
-    cardImage: "assets/photos/Pythonn.webp",
-    place: "Sahu Technologies",
-    time: "(Dec, 2023 - Jan, 2024)",
-    desp: "<li>Gained hands-on experience in Python programming and software development.</li> <li>Learned to build efficient, scalable applications using Python.</li> <li>Developed skills in integrating Python with databases and APIs.</li>",
-  },
+  // {
+  //   title: "Python Internship",
+  //   cardImage: "assets/photos/Pythonn.webp",
+  //   place: "Sahu Technologies",
+  //   time: "(Dec, 2023 - Jan, 2024)",
+  //   desp: "<li>Gained hands-on experience in Python programming and software development.</li> <li>Learned to build efficient, scalable applications using Python.</li> <li>Developed skills in integrating Python with databases and APIs.</li>",
+  // },
   {
     title: "Zscaler Zero Trust Cloud Security",
     cardImage: "assets/photos/Zscaler.png",
