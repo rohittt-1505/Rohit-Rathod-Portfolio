@@ -5,6 +5,22 @@ AOS.init();
 const techStackCards = document.querySelector(".techstack-box");
 const techStack = [
   {
+    langImage: "assets/images/techstack-page/asp.png",
+    langName: "ASP.NET Core",
+    langDesc: "<li>ASP.NET Core is a cross-platform framework for building modern, scalable, high-performance web applications.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/csh.png",
+    langName: "C#",
+    langDesc: "<li>C# is a modern, object-oriented programming language developed by Microsoft for building applications on the .NET platform.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/mysql.png",
+    langName: "MySQL",
+    langDesc: "<li>MySQL is a popular open-source relational database management system widely used for web applications and enterprise solutions.</li>",
+  },
+
+  {
     langImage: "assets/images/techstack-page/html.png",
     langName: "HyperText Markup Language",
     langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
