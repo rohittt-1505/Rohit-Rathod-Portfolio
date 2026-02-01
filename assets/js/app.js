@@ -256,7 +256,7 @@ let footer = $(`
     </svg>
     </a>
     <div class="footer-copyright">
-    <p>© 2025 Rohit Rathod. All rights reserved.</p>
+    <p>© 2026 Rohit Rathod. All rights reserved.</p>
     </div>
   
     </div>
